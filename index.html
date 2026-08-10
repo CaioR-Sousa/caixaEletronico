@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="project.js"></script>
+    <link rel="stylesheet" href="project.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+</head>
+<body>
+    <div id="maquina">
+        <h1>Caixa Eletrônico</h1>
+        <table>
+            <tr>
+                <td onclick="verificarSaldo()"><button style="background-color: rgba(83, 83, 83, 0.467);">Ver Saldo</button></td>
+                <td onclick="depositarDinheiro()"><button style="background-color: rgba(0, 202, 0, 0.604);">Depositar</button></td>
+                <td onclick="sacarDinheiro()"><button>Sacar</button></td>
+                <td onclick="sair()"><button style="background-color: red;">Sair</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="resultado" style="margin-top: 20px; font-weight: bold;"></div>
+</body>
+</html>
